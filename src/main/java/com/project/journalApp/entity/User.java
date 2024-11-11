@@ -29,4 +29,5 @@ public class User {
     private List<JournalEntry> journalEntries = new ArrayList<>();
     // this journalEntries will have the reference of the entries available in JournalEntry table.
 
+    private List<String> roles;
 }
