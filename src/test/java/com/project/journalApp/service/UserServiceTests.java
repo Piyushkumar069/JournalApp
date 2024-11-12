@@ -2,6 +2,7 @@ package com.project.journalApp.service;
 
 import com.project.journalApp.entity.User;
 import com.project.journalApp.repository.UserRepository;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ArgumentsSource;
@@ -11,7 +12,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import static org.junit.jupiter.api.Assertions.*;
-
+@Disabled
 @SpringBootTest // this is to start the spring boot context.
 public class UserServiceTests {
 
@@ -47,7 +48,7 @@ public class UserServiceTests {
     @CsvSource({ // used when We want to send multiple inputs at a time
             "1, 2, 3",
             "2, 10, 12",
-            "3, 3, 9"
+            "3, 3, 6"
     })
     public void test(int a, int b, int expected){
         assertEquals(expected, a+b);

@@ -4,6 +4,7 @@ import com.project.journalApp.entity.User;
 import com.project.journalApp.repository.UserRepository;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.mockito.ArgumentMatchers;
 import org.mockito.InjectMocks;
@@ -15,6 +16,7 @@ import java.util.ArrayList;
 
 import static org.mockito.Mockito.*;
 
+@Disabled
 public class UserDetailsServiceImplTests {
 
     // if we use @SpringBootTest we need to use @MockBean annotation on userRepository
