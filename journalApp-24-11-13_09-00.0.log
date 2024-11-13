@@ -1,0 +1,4 @@
+24-11-13 09:00:59.017 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.project.journalApp.repository.UserRepositoryImplTests]: UserRepositoryImplTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration. 
+24-11-13 09:00:59.215 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.project.journalApp.JournalAppApplication for test class com.project.journalApp.repository.UserRepositoryImplTests 
+24-11-13 09:00:59.580 [main] INFO  c.p.j.r.UserRepositoryImplTests - Starting UserRepositoryImplTests using Java 21.0.4 with PID 8868 (started by piyus in C:\Springboot\project\JournalApp) 
+24-11-13 09:00:59.586 [main] INFO  c.p.j.r.UserRepositoryImplTests - No active profile set, falling back to 1 default profile: "default" 
